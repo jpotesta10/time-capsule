@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Time Capsule</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Virtual Time Capsule</h1>
+    </header>
+    <main>
+        <section id="create-time-capsule">
+            <h2>Create Your Time Capsule</h2>
+            <form id="time-capsule-form">
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Write something..."></textarea>
+                <label for="open-date">Open Date:</label>
+                <input type="date" id="open-date" name="open-date">
+                <button type="button" onclick="createTimeCapsule()">Seal Time Capsule</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Virtual Time Capsule</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
